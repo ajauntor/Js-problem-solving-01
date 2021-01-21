@@ -8,5 +8,5 @@ function getAllSum(marks) {
     return sum;
 }
 var marks = [63, 45, 87, 57, 14, 34, 50];
-var result= getAllSum(marks);
-console.log("totals of the number:", result);
+var result= getAllSum(marks)
+console.log("totals of the number:", sum);
