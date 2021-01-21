@@ -1,3 +1,3 @@
-var digit = 2.48595;
-var result = Math.floor(digit);
+var digit = 3.48777;
+var result = Math.ceil(digit);
 console.log(result);
