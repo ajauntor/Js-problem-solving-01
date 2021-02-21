@@ -12,3 +12,11 @@ var myTotalSalary = 100;
 var samiraTotalSalary = 70;
 [myTotalSalary, samiraTotalSalary] = [samiraTotalSalary ,myTotalSalary];
 console.log("Auntor's Total Salary is:", myTotalSalary , "Samira's Total Salary is:", samiraTotalSalary);
+
+//Price Swap......................!
+var applePrice = 25;
+var grapPrice = 10;
+applePrice = applePrice + grapPrice;
+grapPrice = applePrice - 10;
+applePrice = grapPrice - 15;
+console.log("apple:",applePrice , "grap:", grapPrice);
