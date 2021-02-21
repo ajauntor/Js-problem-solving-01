@@ -1,7 +1,8 @@
-var a = 10;
-var b = 17;
-console.log("before swap a=", a, "b=", b);
-var temp = a;
-a = b;
-b = temp;
-console.log("After swap a=", a, "b=", b);
+var ourVillage = "Hossenpur";
+var myMomVillage = "Donaitori"
+
+var villageChanger = myMomVillage;
+myMomVillage = ourVillage;
+ourVillage = villageChanger;
+
+console.log("Our village name is:", ourVillage, "My Mom village Name is:", myMomVillage);
