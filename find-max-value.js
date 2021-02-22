@@ -1,5 +1,6 @@
+// Find max number of three...........................!
 var teacher = 250;
-var student = 200;
-var myAccount = 270;
-var whoIsRich = Math.max(teacher, student, myAccount);
-console.log(whoIsRich);
+var minister = 870;
+var programmer = 750;
+var max = Math.max(teacher, programmer, minister);
+console.log(max);
