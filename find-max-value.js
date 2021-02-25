@@ -1,6 +1,8 @@
-// Find max number of three...........................!
-var teacher = 250;
-var minister = 870;
-var programmer = 750;
-var max = Math.max(teacher, programmer, minister);
-console.log(max);
+// Find big element form three value..............!
+
+var auntorSalary = 120;
+var sajjadSalary = 170;
+var amdadulSalary = 220;
+
+var findMax = Math.max(auntorSalary, sajjadSalary, amdadulSalary);
+console.log(findMax);
